@@ -1,0 +1,22 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Michael Booth", email = "michael@databooth.com.au"},
+]
+dependencies = [
+    "pyspark>=3.4.1",
+    "dbldatagen>=0.3.4.post2",
+    "pyparsing>=3.1.0",
+    "pandas>=2.0.3",
+    "pyarrow>=12.0.1",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "notebook>=6.5.4",
+]
